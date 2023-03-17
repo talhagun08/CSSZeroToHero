@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Selectors CSS</title>
+    <style>
+        /* tüm h1leri seç*/
+        /*h1{
+            color: red;
+            background: blue;
+        }
+        p{
+            color: red;
+            background: blue;
+        }*/
+        /*h1,p{
+            color: red;
+            background: blue;
+        }*/
+        /*id secimi içim*/
+        /*#logo{
+            color: red;
+            background: blueviolet;
+        }*/
+        /*class secimi icin*/
+        /*.info{
+            color: red;
+            background: blueviolet;
+        }*/
+        /*hem id hem class seçimi için*/
+        /*#logo, .lead{
+            color: red;
+            background: blueviolet;
+        }*/
+        /*#para1.lead{
+            color: red;
+            background: blueviolet;
+        }*/
+
+        /*a{
+            text-decoration: none;
+        }*/
+
+        /*parent child childeren seçimi*/
+        /*ul li a {
+            text-decoration: none;
+            color: red;
+        }*/
+
+        /*.info span{
+            color: red;
+        }*/
+        /*.info .primary {
+            color: red;
+        }*/
+        
+        /*universal secici*/
+        /* *{
+            font-size: 30px;
+        }*/
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>header 1</h1>
+        <h1 id="logo">Logo</h1>
+
+        <ul>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            <li><a href="#">Services</a></li>
+        </ul>
+    </header>
+    <h1>
+        Header 2
+    </h1>
+    <p id="para1" class="lead info">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, excepturi.
+    </p>
+    <p class="info">Lorem ipsum <span class="primary">dolor</span> sit amet consectetur adipisicing elit.
+    </p>
+    <p class="info">
+        Lorem ipsum <span>dolor</span> sit amet consectetur.
+    </p>
+    <p>
+        test paragraph
+    </p>
+    <a href="#">home</a>
+    
+</body>
+</html>
